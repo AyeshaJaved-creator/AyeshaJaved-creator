@@ -1,0 +1,26 @@
+[
+    {
+        "name": "rab",
+        "url": "https://rab.equipment/",
+        "title": "span.base",
+        "price": "span.price"
+    },
+    {
+        "name": "fjallraven",
+        "url": "https://www.fjallraven.com/uk/en-gb/",
+        "title": "h1",
+        "price": "span.product-card--price"
+    },
+    {
+        "name": "blackdiamond",
+        "url": "https://www.blackdiamondequipment.com/",
+        "title": "h1.product-title",
+        "price": "h2.product-price"
+    },
+    {
+        "name": "Amazon",
+        "url": "https://www.amazon.co.uk/",
+        "title": "span#productTitle.a-size-large.product-title-word-break",
+        "price": "span.a-price-whole"
+    }
+]
