@@ -31,7 +31,6 @@ class QuestionAnswersRequest(BaseModel):
     answers: list[str]
 
 # Function to send query to the Gemini model and retrieve a response
-# Function to send query to the Gemini model and retrieve a response
 def get_gemini_response(question: str) -> str:
     """
     Sends a query to the Gemini API and retrieves the response text.
@@ -101,4 +100,4 @@ async def get_diagnosis(info: QuestionAnswersRequest):
 
 # Run the FastAPI app
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="your_local_host", port="your_port_number")
